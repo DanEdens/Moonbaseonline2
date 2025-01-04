@@ -1,0 +1,25 @@
+[package]
+name = "moonbase_online"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A modern Rust reimplementation of the classic 1990s DOS game Moonbase"
+
+[dependencies]
+bevy = "0.12"  # Game engine
+serde = { version = "1.0", features = ["derive"] }  # Serialization
+serde_json = "1.0"  # JSON handling
+rand = "0.8"  # Random number generation
+
+[dev-dependencies]
+criterion = "0.5"  # Benchmarking
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
+lto = true
