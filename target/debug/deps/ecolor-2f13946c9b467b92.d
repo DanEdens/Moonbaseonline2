@@ -1,0 +1,11 @@
+/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/libecolor-2f13946c9b467b92.rmeta: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/color32.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/hsva_gamma.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/hsva.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/rgba.rs
+
+/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/libecolor-2f13946c9b467b92.rlib: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/color32.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/hsva_gamma.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/hsva.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/rgba.rs
+
+/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/ecolor-2f13946c9b467b92.d: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/color32.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/hsva_gamma.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/hsva.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/rgba.rs
+
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/lib.rs:
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/color32.rs:
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/hsva_gamma.rs:
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/hsva.rs:
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ecolor-0.24.1/src/rgba.rs:

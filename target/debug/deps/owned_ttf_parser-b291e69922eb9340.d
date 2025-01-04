@@ -1,0 +1,10 @@
+/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/libowned_ttf_parser-b291e69922eb9340.rmeta: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/convert.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/owned.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/preparse.rs
+
+/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/libowned_ttf_parser-b291e69922eb9340.rlib: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/convert.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/owned.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/preparse.rs
+
+/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/owned_ttf_parser-b291e69922eb9340.d: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/convert.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/owned.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/preparse.rs
+
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/lib.rs:
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/convert.rs:
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/owned.rs:
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/owned_ttf_parser-0.25.0/src/preparse.rs:

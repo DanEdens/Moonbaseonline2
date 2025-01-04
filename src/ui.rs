@@ -1,6 +1,6 @@
 use bevy::prelude::*;
 use bevy_egui::{egui, EguiContexts};
-use crate::game_state::{GameState, Tool, SelectedTool};
+use crate::game_state::{Tool, SelectedTool};
 
 const TOOLBAR_WIDTH: f32 = 60.0;
 

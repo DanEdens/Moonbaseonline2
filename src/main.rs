@@ -1,5 +1,6 @@
 use bevy::prelude::*;
-use bevy_egui::{egui, EguiContexts, EguiPlugin};
+use bevy_egui::EguiPlugin;
+use crate::game_state::GameState;
 
 mod ui;
 mod game_state;

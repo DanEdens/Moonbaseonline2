@@ -1,0 +1,11 @@
+/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/libbevy_gizmos-4826b5c34f13025f.rmeta: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/gizmos.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/pipeline_2d.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/pipeline_3d.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/lines.wgsl
+
+/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/libbevy_gizmos-4826b5c34f13025f.rlib: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/gizmos.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/pipeline_2d.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/pipeline_3d.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/lines.wgsl
+
+/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/bevy_gizmos-4826b5c34f13025f.d: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/gizmos.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/pipeline_2d.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/pipeline_3d.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/lines.wgsl
+
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/lib.rs:
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/gizmos.rs:
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/pipeline_2d.rs:
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/pipeline_3d.rs:
+/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_gizmos-0.12.1/src/lines.wgsl:
