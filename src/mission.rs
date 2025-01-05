@@ -40,7 +40,7 @@ pub struct MapTile {
     pub terrain: TerrainType,
 }
 
-#[derive(Clone, Copy, PartialEq)]
+#[derive(Clone, Copy, PartialEq, Debug)]
 pub enum TerrainType {
     Flat,
     Rough,
@@ -157,5 +157,47 @@ pub fn handle_tile_hover(
                 println!("Terrain at ({}, {}): {}", tile_x, tile_y, tile.terrain.description());
             }
         }
+    }
+} 
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_mission_load() {
+        let mission = Mission::load(1);
+        assert_eq!(mission.id, 1);
+        assert_eq!(mission.name, "First Steps");
+        assert_eq!(mission.map_size, (64, 64));
+        assert!(mission.starting_funds > 0.0);
+        assert!(!mission.objectives.is_empty());
+    }
+
+    #[test]
+    #[should_panic(expected = "Mission 999 not implemented yet")]
+    fn test_mission_load_invalid() {
+        Mission::load(999);
+    }
+
+    #[test]
+    fn test_terrain_descriptions() {
+        assert_eq!(TerrainType::Flat.description(), "Flat terrain - Ideal for construction");
+        assert_eq!(TerrainType::Rough.description(), "Rough terrain - Requires leveling");
+        assert_eq!(TerrainType::Crater.description(), "Crater - Difficult to build on");
+        assert_eq!(TerrainType::Mountain.description(), "Mountain - Unsuitable for construction");
+    }
+
+    #[test]
+    fn test_map_tile_creation() {
+        let tile = MapTile {
+            x: 10,
+            y: 20,
+            terrain: TerrainType::Flat,
+        };
+        
+        assert_eq!(tile.x, 10);
+        assert_eq!(tile.y, 20);
+        assert_eq!(tile.terrain, TerrainType::Flat);
     }
 } 

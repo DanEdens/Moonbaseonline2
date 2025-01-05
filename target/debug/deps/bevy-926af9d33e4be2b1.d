@@ -1,8 +1,0 @@
-/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/libbevy-926af9d33e4be2b1.rmeta: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy-0.12.1/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy-0.12.1/src/../docs/cargo_features.md
-
-/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/libbevy-926af9d33e4be2b1.rlib: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy-0.12.1/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy-0.12.1/src/../docs/cargo_features.md
-
-/Users/d.edens/lab/moonbaseonline2_butitsrust/target/debug/deps/bevy-926af9d33e4be2b1.d: /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy-0.12.1/src/lib.rs /Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy-0.12.1/src/../docs/cargo_features.md
-
-/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy-0.12.1/src/lib.rs:
-/Users/d.edens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy-0.12.1/src/../docs/cargo_features.md:

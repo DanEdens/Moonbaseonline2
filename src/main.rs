@@ -88,7 +88,7 @@ fn camera_zoom(
 ) {
     let mut transform = query.single_mut();
     
-    for event in mouse_wheel.iter() {
+    for event in mouse_wheel.read() {
         let scroll_amount = match event.unit {
             MouseScrollUnit::Line => event.y,
             MouseScrollUnit::Pixel => event.y / 100.0,
