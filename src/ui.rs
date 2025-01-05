@@ -1,17 +1,33 @@
 use bevy::prelude::*;
 use bevy_egui::{egui, EguiContexts};
-use crate::game_state::{Tool, SelectedTool};
+use crate::game_state::{Tool, SelectedTool, GameState};
 
 const TOOLBAR_WIDTH: f32 = 60.0;
 
+#[derive(Resource)]
+pub struct NewGameDialog {
+    pub open: bool,
+    pub selected_mission: usize,
+}
+
+impl Default for NewGameDialog {
+    fn default() -> Self {
+        Self {
+            open: false,
+            selected_mission: 1,
+        }
+    }
+}
+
 pub fn top_menu_bar(
     mut contexts: EguiContexts,
+    mut new_game_dialog: ResMut<NewGameDialog>,
 ) {
     egui::TopBottomPanel::top("top_panel").show(contexts.ctx_mut(), |ui| {
         egui::menu::bar(ui, |ui| {
             ui.menu_button("File", |ui| {
                 if ui.button("New Game").clicked() {
-                    // Handle new game
+                    new_game_dialog.open = true;
                 }
                 if ui.button("Save").clicked() {
                     // Handle save
@@ -40,6 +56,49 @@ pub fn top_menu_bar(
             });
         });
     });
+}
+
+pub fn new_game_dialog(
+    mut contexts: EguiContexts,
+    mut new_game_dialog: ResMut<NewGameDialog>,
+    mut next_state: ResMut<NextState<GameState>>,
+) {
+    if new_game_dialog.open {
+        egui::Window::new("New Game")
+            .collapsible(false)
+            .resizable(false)
+            .show(contexts.ctx_mut(), |ui| {
+                ui.heading("Select Mission");
+                ui.add_space(8.0);
+                
+                for mission in 1..=6 {
+                    let text = match mission {
+                        1 => "Mission 1: First Steps - Basic Base Setup",
+                        2 => "Mission 2: Power Grid - Energy Management",
+                        3 => "Mission 3: Life Support - Oxygen Systems",
+                        4 => "Mission 4: Research - Science Operations",
+                        5 => "Mission 5: Mining - Resource Extraction",
+                        6 => "Mission 6: Full Operations - Complete Base",
+                        _ => unreachable!()
+                    };
+                    
+                    if ui.radio_value(&mut new_game_dialog.selected_mission, mission, text).clicked() {
+                        // Mission selected
+                    }
+                }
+                
+                ui.add_space(16.0);
+                ui.horizontal(|ui| {
+                    if ui.button("Start Mission").clicked() {
+                        new_game_dialog.open = false;
+                        next_state.set(GameState::Playing);
+                    }
+                    if ui.button("Cancel").clicked() {
+                        new_game_dialog.open = false;
+                    }
+                });
+            });
+    }
 }
 
 pub fn side_toolbar(
