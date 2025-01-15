@@ -22,6 +22,9 @@ impl Default for NewGameDialog {
 pub fn top_menu_bar(
     mut contexts: EguiContexts,
     mut new_game_dialog: ResMut<NewGameDialog>,
+    mut next_state: ResMut<NextState<GameState>>,
+    mut camera: Query<&mut Transform, With<Camera2d>>,
+    mission: Option<Res<crate::mission::Mission>>,
 ) {
     egui::TopBottomPanel::top("top_panel").show(contexts.ctx_mut(), |ui| {
         egui::menu::bar(ui, |ui| {
@@ -33,7 +36,9 @@ pub fn top_menu_bar(
                     // Handle save
                 }
                 if ui.button("Load").clicked() {
-                    // Handle load
+                    // Start mission 1 directly
+                    new_game_dialog.selected_mission = 1;
+                    next_state.set(GameState::Playing);
                 }
                 if ui.button("Exit").clicked() {
                     // Handle exit
@@ -41,6 +46,16 @@ pub fn top_menu_bar(
             });
 
             ui.menu_button("View", |ui| {
+                if ui.button("Center Map").clicked() {
+                    if let Some(mission) = mission {
+                        if let Ok(mut transform) = camera.get_single_mut() {
+                            let (width, height) = mission.map_size;
+                            transform.translation.x = (width as f32 * 10.0) / 2.0;
+                            transform.translation.y = (height as f32 * 10.0) / 2.0;
+                            transform.scale = Vec3::splat(crate::DEFAULT_ZOOM);
+                        }
+                    }
+                }
                 if ui.button("Map View").clicked() {}
                 if ui.button("Financial Report").clicked() {}
             });
